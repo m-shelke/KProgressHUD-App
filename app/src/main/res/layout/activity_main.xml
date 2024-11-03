@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/indeterminateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indeterminate"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/withLabelAndCancellableBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With Label And Cancellable"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/withDetailsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With Details"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/determinateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Determinate"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/angularDeterminateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Angular Determinate"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/barDeterminateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bar Determinate"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/customViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom View"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dimBackgroundBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dim Background"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/customColorAndSpeedBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Color And Speed"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
